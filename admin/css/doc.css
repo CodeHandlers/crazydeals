@@ -1,0 +1,187 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: Arial;
+}
+#body {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; WIDTH: 750px; PADDING-TOP: 0px; BACKGROUND-COLOR: white
+}
+#logo {
+	FLOAT: left
+}
+#menu {
+	MARGIN-TOP: 20px; FLOAT: left
+}
+.menuLinkHome {
+	MARGIN-TOP: 2px; FLOAT: left
+}
+.menuLinkHome A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 0px; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.menuLink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.menuLink A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.menuLink A:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+.menuLinkOn A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.menuLinkOn {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 2px; CURSOR: default; COLOR: black; PADDING-TOP: 2px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dbe2f9; TEXT-DECORATION: none
+}
+.arrow {
+	PADDING-BOTTOM: 2px
+}
+
+.tMenu {
+	COLOR: black; TEXT-DECORATION: none
+}
+
+#dropmenudiv {
+	POSITION: absolute; BACKGROUND-COLOR: #dbe2f9
+}
+#dropmenudiv A.menuBlock {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; FONT: 11px/18px Arial; COLOR: black; TEXT-INDENT: 3px; PADDING-TOP: 2px; BORDER-BOTTOM: white 1px dotted; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#dropmenudiv A.menuBlock:hover {
+	COLOR: white; BACKGROUND-COLOR: #243a88
+}
+
+lnkblue {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; MARGIN: -8px 0px 0px; COLOR: black; FONT-FAMILY: Arial
+}
+
+a:link
+{
+  color: #3399FF
+}
+
+a:visited
+{
+  color: #3366CC
+}
+
+a:active
+{
+  color: #FF9900
+}
+
+h1
+{
+  font-family: 'Times New Roman', Times;
+  color: #999933;
+}
+
+h2
+{
+  font-family: 'Times New Roman', Times;
+  color: #CC9900
+}
+
+h3
+{
+  font-family: 'Times New Roman', Times;
+  color: #006699
+}
+
+h4
+{
+  font-family: 'Times New Roman', Times;
+  color: #999900
+}
+
+h5
+{
+  font-family: 'Times New Roman', Times;
+  color: #FF9900
+}
+
+h6
+{
+  font-family: 'Times New Roman', Times;
+  color: #3366CC
+}
+
+.src
+{
+	width: 90%;
+	font-size: .78em;
+	border:1px solid #D9CDAA;
+	background-color:rgb(250,250,220);
+	padding: 5px 5px 5px 5px;
+}
+
+.tip{
+  font-size:16px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #E48028;
+
+}
+
+.hometext
+{
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+
+.highlight {
+           font-family: Verdana, Arial, Helvetica, sans-serif;
+ 		   color: #E48028;
+           font-weight: bold;
+		   line-height: 1.25em;
+}
+
+.commonwords
+{
+	font-size:16px;
+	font-family: 'Times New Roman', Times;
+}
+
+.lcommonwords
+{
+	font-size:18px;
+	font-family: 'Times New Roman', Times;
+}
+
+li
+{
+	font-size:16px;
+	font-family: 'Times New Roman', Times;
+}
+	
+customview
+{
+	font-size:16px;
+	font-family: 'Times New Roman', Times;
+}
+
+.demo{
+  color: #3399FF
+}
+
+table.buy_now {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FF9900;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.buy_now th {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #FF9900;
+	background-color: white;
+}
+table.buy_now td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #FF9900;
+	background-color: white;
+}
+

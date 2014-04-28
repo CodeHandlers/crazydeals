@@ -1,0 +1,293 @@
+
+.SigmaGrid {
+	overflow:hidden;
+	border-color:#5177A8;
+	border-style:solid;
+	border-width:1px;
+	background-color:rgb(210,210,210);
+}
+
+.SigmaGrid a:link {
+	COLOR: #5177A8; TEXT-DECORATION: underline;
+}
+
+.SigmaGrid a:visited {
+	COLOR: #5177A8; TEXT-DECORATION: underline;
+}
+
+.SigmaGrid a:hover {
+	COLOR: #5177A8; TEXT-DECORATION: underline;
+}
+
+.SigmaGrid .body{
+	background-color:rgb(230,255,220);
+}
+
+.SigmaGrid .body tr.selected{
+	background-color:rgb(250,250,180);
+}
+.SigmaGrid .body tr.hover{
+	background-color:rgb(255,255,151);
+}
+
+.SigmaGrid .scroll{
+}
+
+.SigmaGrid .body td{
+	border-right:1px solid #5177A8;
+	border-bottom:1px solid #5177A8;
+	font-size:12px;
+	color:#1E4A84;
+	height:20px;
+	padding:0px;
+	text-align:center;
+}
+
+.SigmaGrid .body input{
+	font-size:12px;
+}
+
+.SigmaGrid .body div.focused{
+	background-color:rgb(255,250,255);
+}
+
+.SigmaGrid .body div{
+	white-space:nowrap;
+	overflow:hidden;
+	width:100%;
+	height:16px!important;
+	height:19px;
+	padding-top:3px;
+	padding-left:2px;
+	display:inline;
+	text-align:center;
+	float:right;
+}
+.SigmaGrid .body div.checked{
+	width:16px;
+	height:16px;
+	border:1px solid red;
+	background-image:url(right.gif);
+	background-repeat:no-repeat;
+}
+
+.SigmaGrid .head td{
+	border-right:1px solid #5177A8;
+	border-bottom:1px solid #5177A8;
+	font-size:12px;
+	font-weight:bold;
+	color:#1E4A84;
+	height:20px;
+	overflow:hidden;
+	padding-top:2px;
+}
+
+.SigmaGrid .head{
+	background-color:rgb(210,240,100);
+}
+
+.SigmaGrid .head div.title{
+	padding-top:2px;
+	float:left;
+	height:18px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.SigmaPage {
+	width:100%;
+	height:22px;
+	font-size:12px;
+	position:relative;
+}
+
+.SigmaPage .first{
+	background-image:url(../images/first.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:10px;
+	width:10px;
+	margin:4px;
+	cursor:pointer;
+}
+
+
+.SigmaPage .pre{
+	background-image:url(../images/pre.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:10px;
+	width:10px;
+	margin:4px;
+	cursor:pointer;
+}
+
+.SigmaPage .info{
+	float:right;
+	height:10px;
+	width:40px;
+	margin:4px;
+	margin-top:3px;
+	text-align:center;
+	padding-top:0px;
+}
+
+.SigmaPage .next{
+	background-image:url(../images/next.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:10px;
+	width:10px;
+	margin:4px;
+	cursor:pointer;
+}
+
+.SigmaPage .last{
+	background-image:url(../images/last.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:10px;
+	width:10px;
+	margin:4px;
+	cursor:pointer;
+}
+
+.SigmaTree{
+	padding:5px;
+	overflow:auto;
+}
+
+.SigmaTree .childrenBox{
+	padding:0px;
+	margin:0px;
+}
+
+.SigmaTree .Node{
+	float:left;
+	height:16px;
+	overflow:hidden;
+}
+
+.SigmaTree .Node .title{
+	padding-top:2px;
+	font-size:12px;
+	height:16px;
+	white-space:nowrap;
+	float:left;
+	cursor:pointer;
+}
+
+.SigmaTree .Node .plus{
+	background-image:url('images/plus.gif');
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .plus_l{
+	background-image:url('images/plus_l.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+
+.SigmaTree .Node .minus{
+	background-image:url('images/minus.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .minus_l{
+	background-image:url('images/minus_l.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .blank{
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .hr{
+	background-image:url('images/hr.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .hr_l{
+	background-image:url('images/hr_l.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+.SigmaTree .Node .vertical{
+	background-image:url('images/vertical.gif');
+	background-repeat:repeat;
+	height:16px;
+	width:19px;
+	float:left;
+}
+
+.SigmaTree .Node .mover{
+	padding-top:2px;
+	font-size:12px;
+	height:16px;
+	white-space:nowrap;
+	background-color:rgb(200,200,255);
+	float:left;
+	cursor:pointer;
+}
+
+.SigmaTree .Node .focus{
+	padding:2px;
+	font-size:12px;
+	height:16px;
+	white-space:nowrap;
+	background-color:rgb(100,100,100);
+	color:rgb(255,255,255);
+	float:left;
+	cursor:pointer;
+}
+
+
+.print{
+	overflow:hidden;
+}
+
+.print .grid{
+	border-left:1px solid black;
+	border-top:1px solid black;
+	TABLE-LAYOUT:fixed;
+	position:relative;
+}
+
+.print .grid td{
+	font-size:14;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	line-height:140%;
+	font-family:"ËÎÌו";
+}
+
+.print .grid td.header{
+	font-size:14px;
+	line-height:140%;
+	font-weight:bold;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.print .grid td.lastRow{
+	font-size:14px;
+	border-right:1px solid black;
+}
+
+.loading{
+	background-image:url("images/ajax-loader2.gif");
+	background-repeat:no-repeat;
+	width:200px;
+}
